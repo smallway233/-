@@ -72,6 +72,8 @@
 根据提示验证后，得到授权码，和抓包步骤一样，把授权码复制保存下来备用。
 
 <img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802153128652.png" alt="2.1.3" style="zoom:67%;" />
+
+
 ### 三、Python 代码
 
 ```
