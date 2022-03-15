@@ -50,3 +50,7 @@
 <img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802141716446.png" alt="1.1.8" style="zoom:67%;" />
 
 之后一直点击`下一步`，直到完成证书导入。到这里配置工作基本完成，可以进行抓包了，刚刚导出在桌面的证书文件也可以删除
+
+#### 2.抓包
+接下来从微信电脑端打开渭南高校技术转移中心公众号，进行一次打卡，会发现 Fiddler 中显示了很多内容，我们找到yqtj2.wnu.edu.cn这一行，双击打开，在右边选择Headers标签，复制 User-Agent（设备信息）、Referer（学校信息）、cookie（身份识别码）、X_REQUESTED_WITH（包含在cookie中）、Header-Pool（包含在cookie中）。
+![1.2.1](https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:25:511647311151399.png)
