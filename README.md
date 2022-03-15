@@ -154,3 +154,23 @@ def main_handler(event, context):
 
 其他设置保持默认即可，然后点击完成。这样就把代码部署在腾讯云上了，可以尝试运行一下
 <img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:42:281647312148226.png" alt="4.1.6" style="zoom:67%;"/>
+
+在函数管理-函数代码中可以测试代码是否运行成功
+<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:46:481647312407367.png" alt="4.1.7" style="zoom:67%";/>
+
+下方的执行结果若出现“打卡成功”则代表成功打卡。若出现打卡失败，请看下方的执行日志message值若为"当前不在上报时间内"也能证明打卡成功，只不过刚才抓包的时候打过卡了，同一时间段不能进行第二次打卡对吧QAQ
+<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:49:591647312598486.png" alt="4.1.8" style="zoom:67%/;">
+
+#### 2.定时触发
+
+设置定时触发之后，就可以按照自己的时间定时运行一次代码，这样就解放了双手
+
+触发管理 → 创建触发器
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210803083310441.png" alt="4.1.7" style="zoom:67%;" />
+
+触发周期选择自定义，这里要输入 Cron 表达式，我填的是0 30 0,12 * * * *表示每天00:30、12:30各运行一次；其他设置保持默认即可，点击提交。
+
+教程到这里就结束了，如果需要其他时间打卡，可以直接更改 Cron表达式，为了方便大家更改，关于 Cron 表达式的语法在下面也讲解一下
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210803083504283.png" alt="4.1.8" style="zoom:67%;" />
