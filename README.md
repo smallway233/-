@@ -171,6 +171,4 @@ def main_handler(event, context):
 
 触发周期选择自定义，这里要输入 Cron 表达式，我填的是0 30 0,12 * * * *表示每天00:30、12:30各运行一次；其他设置保持默认即可，点击提交。
 
-教程到这里就结束了，如果需要其他时间打卡，可以直接更改 Cron表达式，为了方便大家更改，关于 Cron 表达式的语法在下面也讲解一下
-
-<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210803083504283.png" alt="4.1.8" style="zoom:67%;" />
+教程到这里就结束了，如果需要其他时间打卡，可以直接更改 Cron表达式。
