@@ -126,3 +126,24 @@ def main_handler(event, context):
         server.quit()  
         return '打卡失败'
 ```
+
+### 四、腾讯云函数
+
+注册过程就不再赘述，注册完记得完成实名认证，这里给出腾讯云官网链接：[腾讯云(tencent.com)](https://cloud.tencent.com/)
+
+#### 1.使用云函数
+
+进入腾讯云先登录，搜索云函数
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802160948779.png" alt="4.1.1" style="zoom:67%;" />
+
+管理控制台
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802161241550.png" alt="4.1.2" style="zoom:67%;" />
+
+函数服务 → 新建
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802161459839.png" alt="4.1.3" style="zoom:67%;" />
+
+选择从头开始，函数名称可以改一下，方便区分,名称不能为中文，选择python3.6
+<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:38:501647311930730.png" alt="4.1.4" style="zoom:67%;">
