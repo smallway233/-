@@ -145,5 +145,12 @@ def main_handler(event, context):
 
 <img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802161459839.png" alt="4.1.3" style="zoom:67%;" />
 
-选择从头开始，函数名称可以改一下，方便区分,名称不能为中文，选择python3.6
-<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:38:501647311930730.png" alt="4.1.4" style="zoom:67%;">
+选择从头开始，函数名称可以改一下，方便区分,名称不能为中文，运行环境选择python3.6
+<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:38:501647311930730.png" alt="4.1.4" style="zoom:67%;"/>
+
+往下翻，函数代码选择在线编辑，把代码粘贴在这里，代码内"xxx"内容需要修改为刚才抓包抓到的内容
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210803080356200.png" alt="4.1.5" style="zoom:67%;" />
+
+其他设置保持默认即可，然后点击完成。这样就把代码部署在腾讯云上了，可以尝试运行一下
+<img src="https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:42:281647312148226.png" alt="4.1.6" style="zoom:67%;"/>
