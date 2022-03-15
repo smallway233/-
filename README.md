@@ -54,3 +54,21 @@
 #### 2.抓包
 接下来从微信电脑端打开渭南高校技术转移中心公众号，进行一次打卡，会发现 Fiddler 中显示了很多内容，我们找到yqtj2.wnu.edu.cn这一行，双击打开，在右边选择Headers标签，复制 User-Agent（设备信息）、Referer（学校信息）、cookie（身份识别码）、X_REQUESTED_WITH（包含在cookie中）、Header-Pool（包含在cookie中）。
 ![1.2.1](https://gitee.com/smallway/drawing-bed/raw/master/2022-3-1510:25:511647311151399.png)
+复制的内容可以发给你的工具人小伙伴，或者你的小号，总之先保留下来备用。
+### 二、QQ邮箱
+
+#### 获取授权码
+
+用QQ邮箱发件也需要登录，不是用账号密码，而是授权码（更安全），接下来获取授权码
+
+进入QQ邮箱网页版，进入`设置`，选择`账户`
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802152812320.png" alt="2.1.1" style="zoom:67%;" />
+
+往下翻找到 `POP3/SMTP服务`，确保第一项是`已开启`状态，如果不是，点击后面的开启，然后选择下面的`生成授权码`
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802152944128.png" alt="2.1.2" style="zoom:67%;" />
+
+根据提示验证后，得到授权码，和抓包步骤一样，把授权码复制保存下来备用。
+
+<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802153128652.png" alt="2.1.3" style="zoom:67%;" />
