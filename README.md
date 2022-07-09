@@ -21,11 +21,11 @@
 
 打开 Fiddler ，点击工具栏中的 `Tools` → `Options`
 
-<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802134532161-1627956867319.png" alt="1.1.1"  />
+<img src="https://dominickk.oss-cn-hangzhou.aliyuncs.com/typora/2022/06/031900-a23.png" alt="1.1.1"  />
 
 点击 `HTTPS` 标签，勾选框住的三项，然后点击右边的 `Actions`，选择第二项，会弹出一个弹窗，点击确定，之后点击 `OK` 完成设置
 
-<img src="https://gitee.com/dominic548/picgo/raw/master/Typora/image-20210802140021903.png" alt="1.1.2"  />
+<img src="https://dominickk.oss-cn-hangzhou.aliyuncs.com/typora/2022/06/031900-55f.png" alt="1.1.2"  />
 
 这时会发现桌面上多了一个证书文件（如下图），接下来马上会用到
 
