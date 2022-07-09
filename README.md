@@ -4,9 +4,7 @@
 
 本代码完全免费使用，但是作者开发不易，如果觉得对你有帮助，你可以请我喝杯茶。
 
-![Untitled](https://smallway.oss-cn-beijing.aliyuncs.com/202279-wechatpay.jpg)
-
-![](https://smallway.oss-cn-beijing.aliyuncs.com/202279-alpay.jpg)
+![Untitled](https://smallway.oss-cn-beijing.aliyuncs.com/202279-pay.png)
 
 ***
 
